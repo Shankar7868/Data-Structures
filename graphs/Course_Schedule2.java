@@ -62,7 +62,7 @@ public class Course_Schedule2
 
      // used Kahn's Algorithm 
 // BFS + Indegree usage
-    public int[] findOrder(int numCourses, int[][] prerequisites)
+    static int[] findOrder2(int numCourses, int[][] prerequisites)
     {
         List<List<Integer>> adjList = new ArrayList<>();
         int[] inDegree = new int[numCourses];
